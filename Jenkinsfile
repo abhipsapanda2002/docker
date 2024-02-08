@@ -29,7 +29,7 @@ pipeline {
             steps {
                 script{
                     docker.withRegistry('', 'DockerHubCred') {
-                    sh 'docker tag calculator abhipsapanda/calc:latest'
+                    sh 'docker tag calc abhipsapanda/calc:latest'
                     sh 'docker push abhipsapanda/calc'
                     }
                  }
