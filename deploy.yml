@@ -6,7 +6,7 @@
   tasks:
     - name: Pull Docker Image
       docker_image:
-        name: "abhipsapanda/spe"
+        name: "abhipsapanda/calculator"
         source: pull
       register: docker_pull_result
 
