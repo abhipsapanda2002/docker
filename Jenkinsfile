@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE_NAME = 'calc'
-        GITHUB_REPO_URL = 'https://github.com/abhipsapanda2002/dcoker.git'
+        GITHUB_REPO_URL = 'https://github.com/abhipsapanda2002/docker.git'
     }
 
     stages {
