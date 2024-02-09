@@ -25,4 +25,4 @@ case $ch in
 esac
 echo "Result : $res"
 #Test for webhook
-echo "Hi! Jenkins"
+echo "Hi! Jenkins 2"
