@@ -24,3 +24,5 @@ case $ch in
    ;;
 esac
 echo "Result : $res"
+#Test for webhook
+echo "Hi! Jenkins"
