@@ -49,7 +49,7 @@ pipeline {
 
     }
 post {
-        always {
+        failure {
             script {
                 // Email notification configuration
                 emailext (
