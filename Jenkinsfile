@@ -53,12 +53,10 @@ post {
             script {
                 // Email notification configuration
                 emailext (
-                    subject: "Build ${currentBuild.fullDisplayName} ${currentBuild.result}",
-                    body: "Build URL: ${BUILD_URL}",
-                    to: "pabhipsa02@gmail.com", // Add your recipient email address here
-                    mimeType: 'text/html',
-                    replyTo: "abhipsa.panda16@gmail.com", // Optional: Specify a reply-to email address
-                    attachLog: true
+                    subject: "Build Failed for Calculator",
+                    body: "Build Failed",
+                    to: "pabhipsa02@gmail.com" // Add your recipient email address here
+                
                 )
             }
         }
